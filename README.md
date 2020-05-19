@@ -1,6 +1,6 @@
 # schoebeckEggCollection
 
-Background: 
+Background:<br>
   At the University of Wisconsin - Stevens Point in the Museum of Natural History, there is a egg collection of 100+ eggs. As part of an 
   Independent Study course, I and two other classmates were tasked with designing an interactive exhibit for the collection. We decided to   create an application that when given input through the keypad or speech, pulls up the info for the bird that was requested. The user can   search through the collection either through a numerical keypad or through using a speech recognition software. 
 
