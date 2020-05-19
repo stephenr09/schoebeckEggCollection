@@ -4,9 +4,13 @@ Background: At the University of Wisconsin - Stevens Point in the Museum of Natu
 
 Contributions: My contributions to the project:
   •	Implementing 80-90% of the HTML and CSS
+  
   •	Implementing the Web Speech API to allow users to search using voice
+  
   •	Creating the functionality of the keypad
+  
   •	Creating the methods to search for the bird information based in given input
+  
   
 Sources:
   Web Speech API: https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API
