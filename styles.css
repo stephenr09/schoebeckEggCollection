@@ -1,0 +1,132 @@
+body{
+	height: 100%;
+	margin: 80px 75px;
+	background-color: #0f142c;
+}
+
+img{
+	width: 45%;
+}
+
+.numpad{
+	padding: 5px 0 20px 6%;
+}
+
+.text{
+	color: #ffffff;
+}
+
+.display{
+	background-color: #2c3667;
+	border: 3px solid #414673;
+	border-radius: 15px;
+	font-size: 30px;
+	height: 75px;
+	margin-bottom: 20px;
+	margin-left: 25px;
+	padding: 8px 10px 10px 10px;
+	text-align: center;
+	width: 250px;
+}
+
+.num{
+	background-color: #2c3667;
+	border: 0px;
+	box-shadow: 4px 4px 1px #414673;
+	color: #ffffff;
+	font-size: 30px;
+	margin: -1px;
+	padding: 30px;
+	text-align: center;
+	width: 100px;
+}
+
+.num:active{
+	transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.speech{
+	background-color: #2c3667;
+	border: 0px;
+	box-shadow: 4px 4px 1px #414673;
+	color: #ffffff;
+	font-size: 30px;
+	margin: 0;
+	padding: 30px;
+	text-align: center;
+	width: 300px;
+	height: 100px;
+}
+.speech:active{
+	transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.voice{
+	font-size: 18px;
+	margin-top: 25px;
+	padding: 0 0 0 5px;
+	text-align: center;
+	width: 300px;
+	
+}
+
+.voice text{
+	margin-top: 25px;
+}
+
+.vl{
+	border-right: 6px solid #2c3667;
+	margin: 0;
+	height: 700px;
+}
+
+.content{
+	margin-left: 4%;
+}
+
+.birdName{
+	font-size: 50px;
+	margin-bottom: 30px;
+	margin-left: -30px;
+	text-align: center;
+}
+
+.bird{
+	float: left;
+	max-width: 45%;
+	max-height: 45%;
+	margin-bottom: 30px;
+	margin-right: 3%;
+}
+
+.facts{
+	clear: both;
+	font-size: 24px;
+	text-align: center;
+	padding: 25px 0px;
+}
+
+#screensaver { 
+	position: absolute; 
+	width: 100%; 
+	height:100%; 
+	left:0px; 
+	top: 0px; 
+	display: none; 
+	z-index:9999; 
+	background-color:#0f142c;
+	text-align: center;
+	color: white;
+	padding-top: 22.5%;
+}
+
+h1 {
+	Font-size: 3.5em;
+}
+
+h2 {
+	Font-size: 2em;
+	margin-top: 100px;
+}

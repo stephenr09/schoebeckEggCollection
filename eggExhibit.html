@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Egg Case Exhibit</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+
+</head>
+
+<body>
+
+	<div id="screensaver">
+		<h1>Welcome to the Natural History Museum Interactive Egg Collection!</h1><br>
+		<h2>Tap the screen, or say "Okay Museum, Show Me Number ___"</h2>
+	</div>
+
+	<div class="main container-fluid row" style="margin-top:10%;">
+		<div class="numpad col-4">	
+			<form id="numpadSearch">	
+				<input type="text" readonly="readonly" maxlength="3" class="display text" id="numpad"/>
+
+				<table id="keypad">
+					<tr>
+						<td class="num" onclick="inputNumber('1')">1</td>
+						<td class="num" onclick="inputNumber('2')">2</td>
+						<td class="num" onclick="inputNumber('3')">3</td>
+					</tr>
+					<tr>
+						<td class="num" onclick="inputNumber('4')">4</td>
+						<td class="num" onclick="inputNumber('5')">5</td>
+						<td class="num" onclick="inputNumber('6')">6</td>
+					</tr>
+					<tr>
+						<td class="num" onclick="inputNumber('7')">7</td>
+						<td class="num" onclick="inputNumber('8')">8</td>
+						<td class="num" onclick="inputNumber('9')">9</td>
+					</tr>
+					<tr>
+						<td class="num" onclick="backSpace()">&larr;</td>
+						<td class="num" onclick="inputNumber('0')">0</td>
+						<td><button type="button" class="num" onclick="grabNumber()">Go</button></td>
+					</tr>
+				</table>
+				
+				<button class="speech">Voice Search</button>
+				<p class="voice text">Or say, "Okay Museum, show me egg number..."</p>
+			</form>
+		</div>
+		
+		<div class="vl"></div>
+		
+		<div class="content col-7">
+			<h1 id="birdName" style="color:white;">Select an Egg!</h1>
+			<div id="birdPhoto1"></div>
+			<div id="birdPhoto2"></div>
+			<p class="facts text" id="facts"></p>
+		</div>
+	</div>
+	
+	<!--<script src="speechRecognizer.js"></script>-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="eggSearch.js"></script>
+</body>
+</html>
