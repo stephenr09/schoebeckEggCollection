@@ -14,3 +14,6 @@ Contributions to project:
   
 Sources:
   Web Speech API: https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API
+  
+Tips for running application:<br>
+  Runs best using Live Server in VSCode
