@@ -10,6 +10,8 @@ Contributions to project:
   •	Implementing the Web Speech API to allow users to search using voice<br>
   •	Creating the functionality of the keypad<br>
   •	Creating the methods to search for the bird information based in given input<br>
+
+Only has info for #1 & 2
   
   
 Sources:
