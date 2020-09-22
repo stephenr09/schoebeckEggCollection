@@ -11,11 +11,8 @@ Contributions to project:
   •	Creating the functionality of the keypad<br>
   •	Creating the methods to search for the bird information based in given input<br>
 
-Only has info for #1 & 2
-  
+Only has info for birds 1 & 2
+  - Project didn't get all of the information implemented due to Covid-19 during the semester
   
 Sources:
   Web Speech API: https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API
-  
-Tips for running application:<br>
-  Runs best using Live Server in VSCode
